@@ -9,8 +9,8 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.document_loaders import TextLoader
 
-oai_auth = '2e5b9946f66648789d1a0cc12f01f046'
-oai_endpoint = "https://me-m1tege32-eastus2.openai.azure.com/"
+oai_auth = ''
+oai_endpoint = ""
 
 llm = AzureChatOpenAI(
     azure_endpoint=oai_endpoint,
